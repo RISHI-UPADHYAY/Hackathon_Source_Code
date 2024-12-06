@@ -1,0 +1,234 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.header {
+  background-color: #2b667b;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.dashboard-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.dashboard-item {
+  text-align: center;
+  width: 20%;
+}
+
+.dashboard-item img {
+  width: 250px;
+  height: 250px;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.features-section {
+  padding: 20px;
+}
+
+.features-section h2 {
+  margin-bottom: 20px;
+}
+
+.features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, filter 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.feature-item img {
+  width: 200px;
+  height: 150px;
+  margin-right: 20px;
+}
+
+.feature-item h3 {
+  margin: 0;
+  font-size: 1.1em;
+}
+
+.feature-item p {
+  margin: 5px 0;
+}
+
+.feature-item button {
+  background-color: #2b667b;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #2b667b;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer .about,
+.footer .contact,
+.footer .social-media {
+  margin-bottom: 20px;
+}
+
+.footer .social-media a {
+  color: white;
+  font-size: 1.5em;
+  margin: 0 10px;
+  text-decoration: none;
+  width: 80px;
+  height: 80px;
+}
+
+.footer .social-media a img {
+
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.header-hearing {
+  background-color: #2c3e50;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-hearing nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.sidebar-hearing {
+  background-color: #ecf0f1;
+  padding: 1rem;
+  width: 250px;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 2rem;
+}
+
+.footer-hearing {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.login-hearing input {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+}
+
+.hearing-video iframe {
+  width: 100%;
+  height: 500px;
+}
+
+.case-search-bar {
+  margin-bottom: 20px;
+}
+
+.case-search-bar input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.case-search-bar button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.case-filter {
+  margin-bottom: 20px;
+}
+
+.case-filter select,
+.case-filter input {
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.case-filter button {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.case-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.case-card {
+  background-color: #f8f9fa;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.case-card h3 {
+  margin-top: 0;
+}
+
+.case-card p {
+  margin: 5px 0;
+}

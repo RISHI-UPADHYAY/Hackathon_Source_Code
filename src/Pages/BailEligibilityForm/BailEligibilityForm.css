@@ -1,0 +1,56 @@
+.bail-eligibility-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.bail-eligibility-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.bail-eligibility-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.bail-eligibility-form input[type="text"],
+.bail-eligibility-form input[type="date"],
+.bail-eligibility-form input[type="tel"],
+.bail-eligibility-form textarea,
+.bail-eligibility-form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.bail-eligibility-form input[type="radio"],
+.bail-eligibility-form input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.bail-eligibility-form div {
+    margin-bottom: 16px;
+}
+
+.bail-eligibility-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.bail-eligibility-form button[type="submit"]:hover {
+    background-color: #45a049;
+}

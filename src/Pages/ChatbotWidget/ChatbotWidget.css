@@ -1,0 +1,14 @@
+.chatbot-widget {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .rw-widget-container {
+    border-radius: 10px !important;
+  }
+  
+  .rw-conversation-container {
+    background-color: #f5f5f5 !important;
+  }
